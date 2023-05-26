@@ -13,4 +13,3 @@ find_subset=FindSunsets()
 
 print(find_subset.subset([3,5,6]))
 
-print("hello")
