@@ -1,3 +1,6 @@
+
+# SINGLE ROW KEYBOARD ALGORITHM
+
 def calculate_timing(digits,target):
     
   digit={}
