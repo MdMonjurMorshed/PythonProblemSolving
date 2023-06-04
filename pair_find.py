@@ -3,6 +3,7 @@ class PairFind:
         new_dict={}
         a=[]
         for i,num in enumerate(nums):
+          
             if target-num in new_dict:
                 
                 a.append((new_dict[target-num],i))
