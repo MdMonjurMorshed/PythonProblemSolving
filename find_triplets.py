@@ -1,3 +1,6 @@
+
+# FINDING TRIPLETS, WHERE THEIR SUM I EQUALS TO 0
+
 class FindTriplets:
     def find_triplets(self,list_num):
         nums,results,i=sorted(list_num),[],0
