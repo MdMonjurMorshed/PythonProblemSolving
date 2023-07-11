@@ -1,0 +1,10 @@
+def SumofNatural():
+    num=int(input("enter the number: "))
+
+    sum=0
+    for i in range(num) :
+       sum+=i+1
+
+    print(sum)
+
+SumofNatural()    
