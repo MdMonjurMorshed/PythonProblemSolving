@@ -1,5 +1,6 @@
 # to reduce time complexity O(n) to O(1)
 n=int(input("Enter an integer number: "))
+copyNum=n
 sum=int(n*(n+1)/2)
 print(sum)
 
@@ -13,6 +14,10 @@ while (n>0):
     print(digit)
     n=int(n/10)  
 
-
+if (ans==copyNum):
+    print("Palidrome")
+else:
+    print("Not Palidrome")  
+    
 
 print(ans)    
