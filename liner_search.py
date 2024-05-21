@@ -1,7 +1,7 @@
 def linear_search(alist,item):
     pos=0
     for i in range(len(alist)):
-        print(i)
+         
         if alist[i] == item:
             pos=i
 
