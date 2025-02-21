@@ -47,3 +47,30 @@ print(list(compress([1,2,3],[0,0,1])))
 # it started dropping elements from the iter until function return false
 
 print(list(dropwhile(lamda x:x<4,[2,3,5,1,8])))
+
+
+### combination function
+
+### product. like Cartesian product
+
+for item in product(['a','b'],[1,2]):
+    print(item)
+
+## permutation 
+   ## returns all possible combination of iteration
+
+for item in permutation('abc',2):
+    print(item)
+
+
+## combination
+  # returns all combination based on the combination size
+
+for item in itertools.combination('abc',2):
+    print(item)
+
+## combination_with_relacement
+   ## it is like combination but it's also returns repeatative combination
+
+for item in itertools.conbination_with_replasement('abc',2):
+    print(item)
