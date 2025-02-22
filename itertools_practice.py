@@ -74,3 +74,6 @@ for item in itertools.combination('abc',2):
 
 for item in itertools.conbination_with_replasement('abc',2):
     print(item)
+
+for item in itertools.combination([1,2,3],2):
+    print(item)
