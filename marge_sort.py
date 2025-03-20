@@ -16,7 +16,7 @@ def margeSort(n):
 def marge(left,right):
     result=[]
     left_ind,right_ind=0,0
-    while left_ind<len(left) and right_ind<len(right):
+    while left_ind<len(left) and right_ind<len(right):    
         if left[left_ind] <right[right_ind]:
             result.append(left[left_ind])
             left_ind+=1
